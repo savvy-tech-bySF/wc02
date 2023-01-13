@@ -1,4 +1,4 @@
-# Weekly Challenge 01: Comparison
+# Weekly Challenge 02: Formal Reasoning
 # CS/MATH 113 Discrete Mathematics, Spring 2023
 ***
 
