@@ -1,12 +1,8 @@
 *~
+*.gz
+*.pdf
+*.log
+*.fls
+*.fdb_latexmk
 *.aux
 *.out
-*.log
-*.pdf
-.DS_Store
-auto/
-solution/
-__pycache__/
-wc02.synctex.gz
-wc02.fls
-wc02.fdb_latexmk
