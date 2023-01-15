@@ -1,18 +1,18 @@
-# Weekly Challenge 02: Formal Reasoning
+# Weekly Challenge 02: Logical Thinking
 # CS/MATH 113 Discrete Mathematics, Spring 2023
 ***
 
-Weekly challenges (WC) invite you to critically engage with the topics covered up to that week. They may take on a variety of formats and be available and attempted through diverse platforms as the semester progresses. They may be attempted individually or in teams as indicated.
+Weekly challenges (WC) invite you to critically engage with the topics covered up to that week. They may take on a variety of formats and be available and attempted through diverse platforms as the semester progresses. They may be attempted individually or in teams as indicated. If in teams, the intention is for the buddies to discuss the solution among themselves, rather than splitting the tasks among themselves.
 
 # Purpose
 
-This is the second WC. The purpose of this weekly challenges is to invite you to critically engage with the topics covered up to this week.
+This WC invites you to think in a manner required for problem solving, and in designing proofs. You may need to spend a good amount of time thinking about this problem and it is unlikely that you will get it in a single sitting. Start discussing the problem with your buddy early.
 
 # Background
 
 To attempt and submit the task you will need
-- familiarity with high school mathematics
-- a problem solving and logical approach.
+- the willingness to ponder over a problem
+- the time and persistent to think over the problem
 - comfort with GitHub and LaTeX
 
 # Grading
