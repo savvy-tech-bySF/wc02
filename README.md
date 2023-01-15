@@ -12,7 +12,8 @@ This WC invites you to think in a manner required for problem solving, and in de
 
 To attempt and submit the task you will need
 - the willingness to ponder over a problem
-- the time and persistent to think over the problem
+- the time and persistence to think over the problem
+- the ability to state your thoughts concisely and compellingly
 - comfort with GitHub and LaTeX
 
 # Grading
