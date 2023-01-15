@@ -7,7 +7,7 @@
 
 \printanswers
 
-\title{Weekly Challenge 02: Formal Reasoning\\CS/MATH 113 Discrete Mathematics}
+\title{Weekly Challenge 02: Logical Thinking\\CS/MATH 113 Discrete Mathematics}
 \author{$\langle team-name \rangle$}  % <== for grading, replace with your team name, e.g. q1-team-420
 \date{Habib University | Spring 2023}
 
@@ -19,38 +19,18 @@
 
 \begin{questions}
   
-\titledquestion{Logical Hikers}
-A group of $n$ hikers is standing at the base of a mountain. Their guide joins them and hangs a compass from each hiker's neck. At their current position, all compasses should point North. But some are faulty. A hiker cannot see their own compass but can see everyone else's. For the hike to go smoothly, it is important for every hiker to know the condition of their compass, i.e., if it is faulty or functions correctly. The guide is going around asking each hiker in turn about the condition of their compass. Each hiker reports either ``Working'', ``Faulty'', or ``Can't tell''.
+  \titledquestion{Logical Hikers}
+  A group of $n$ hikers is standing at the base of a mountain. Their guide joins them and hangs a compass from each hiker's neck. At their current position, all the compasses should point North. But some are faulty. A hiker cannot see their own compass but can see everyone else's. For the hike to go smoothly, it is important for every hiker to know the condition of their compass, i.e., if it is faulty or functions correctly. The guide is going around asking each hiker in turn about the condition of their compass. Each hiker reports either ``Working'', ``Faulty'', or ``Can't tell''. The hikers are highly logical and always respond truthfully.
 
-\begin{parts}
-  \part Given that the guide has announced that \textit{exactly} $k$ compasses are faulty where $0\leq k \leq n$, prove that every hiker can correctly tell the condition of their compass just by looking at the compasses of the other hikers.
-  \part Suppose instead that the guide announces \textit{at least} $k$ faulty compasses where $1\leq k \leq (n-1)$
-\end{parts}
+  \begin{parts}
+    \part Given that the guide has announced that \textit{exactly} $k$ compasses are faulty where $0\leq k \leq n$, prove that every hiker can correctly tell the condition of their compass just by looking at the compasses of the other hikers.
+    \part Suppose instead that the guide announces \textit{at least} $k$ faulty compasses where $1\leq k \leq (n-1)$. Prove the following statement about the responses: As soon as a hiker responds, ``Faulty'', no subsequent hiker will respond, ``Can't tell''.
+    \part Suppose instead that the guide announces \textit{at most} $k$ faulty compasses where $1\leq k \leq (n-1)$. Provide a statement about the responses similar to the one given in the previews part. Show that it is correct.
+  \end{parts}
 
-% the group with a bag of compasses and informs the 
-% hikers that each compass is either working or broken. Then walking behind the hikers, he places a compass in each hiker's pocket. No hiker can see the 
-% condition of their compass, but they can see every other hiker's compass if they take it out to check. We suppose that all the compasses are working. 
-% Now the guide states that the hiker who can correctly identify the condition of their compass will lead the group, and any hiker who is incorrect will 
-% have to carry the extra load to discourage guessing. The guide then progresses repeatedly around the circle, asking each hiker in turn whether they would 
-% like to state the condition of their compass.
-
-
-% \begin{parts}
-%   \part Will any hiker ever be able to state the condition of their compass ? Justify your answer.
-%   \part Now suppose the guide announces to the group that at least one of the compasses is working and then once again progresses repeatedly around the circle asking each hiker in turn whether 
-%   they would now like to state the condition of their compass. Will any hiker ever be able state the condition of their compass ? Justify your answer. 
-  
-% \end{parts}
-
-\begin{solution}
+  \begin{solution}
     % Enter your solution here.
   \end{solution}
 \end{questions}
 
-
 \end{document}
-
-%%% Local Variables:
-%%% mode: latex
-%%% TeX-master: t
-%%% End:
