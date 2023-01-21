@@ -29,7 +29,15 @@
   \end{parts}
 
   \begin{solution}
-    % Enter your solution here.
+    a) Assume that for k = n, every hiker can correctly tell the condition of their compass just by looking at the compasses of the other hikers. We want to show that this holds for k = n + 1. If there are n + 1 faulty compasses, then one of the hikers' compasses must be faulty. This means that the hiker can correctly tell the condition of their compass by looking at the compasses of the other hikers and seeing that one of them is faulty. The hiker can also see that all the other compasses are working, thus, they can correctly tell the condition of their compass just by looking at the compasses of the other hikers.
+
+    b) Let A1, A2, be used to denote the hikers, where A1 is the first hiker to be asked by the guide.
+    1. Suppose A1 responds “Faulty”. Then, no subsequent hiker can respond “Can’t tell”, since the hikers are highly logical and always respond truthfully. 
+    2. Suppose A1 responds “Working”. Then, it must be true that at least k of the other compasses are faulty, since the guide announced at least k faulty compasses. Therefore, all subsequent hikers must either respond “Faulty” or “Working”. Hence, no subsequent hiker can respond “Can’t tell”. 
+    3. Suppose A1 responds “Can’t tell”. Then, it must be true that at least k of the other compasses are faulty, since the guide announced at least k faulty compasses. Therefore, all subsequent hikers must respond “Faulty” or “Working”. Hence, no subsequent hiker can respond “Can’t tell”. Therefore, as soon as a hiker responds “Faulty”, no subsequent hiker will respond “Can’t tell”.
+    Since there are AT LEAST k faulty compasses, it means that the threshold of k has to pass or remain as is. It cannot be less than k. Because the hikers are highly logical they will have to respond faulty until the condition of k is met.
+    
+    c) If there are at most 20 faulty compasses and the hiker counts 19 faulty from his other team mates then he knows that his compass is also faulty therefore all subsequent hikers will have to respond working.
   \end{solution}
 \end{questions}
 
